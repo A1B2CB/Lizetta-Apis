@@ -42,7 +42,7 @@ export default async function handler(req: Request, res: Response) {
 
     res.json({
       status: true,
-      creator: "Taiga",
+      creator: "lizetta",
       result: result.trim()
     });
 
