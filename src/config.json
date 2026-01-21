@@ -1,7 +1,7 @@
 {
   "settings": {
     "creator": "Lizetta Morimiya",
-    "apiName": "lizetta",
+    "apiName": "Lizetta Apis",
     "description": "A free and reliable API service designed for modern application development. Built with Node.js and TypeScript, delivering fast performance, stable endpoints, and easy integration.",
     "apiVersion": "v1.0",
     "visitors": "0",
@@ -27,6 +27,24 @@
             "name": "session",
             "required": false,
             "description": "Session ID"
+          }
+        ]
+      },
+      {
+        "name": "Dolphin Ai",
+        "endpoint": "/api/ai/dolphin",
+        "filename": "dolphin",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "question"
+          },
+          {
+            "name": "template",
+            "required": false,
+            "description": "Opsi: logical, creative, summarize, dll"
           }
         ]
       }
